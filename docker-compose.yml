@@ -1,0 +1,7 @@
+services:
+  univers:
+    build: .
+    image: ghcr.io/pspapleng/static-web:dev
+    ports:
+      - "8080:80"
+  
